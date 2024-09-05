@@ -13,7 +13,7 @@ useGeographic();
 const sdBayLonLat = [-117.1441, 32.67];
 
 var kml = new VectorSource({
-  url: "/kml/tracks.kml.j2",
+  url: "/static/tracks.kml",
   format: new KML(),
 });
 

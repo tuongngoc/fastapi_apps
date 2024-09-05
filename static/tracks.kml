@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Diego Harbor Triangles</name>
+    <Placemark>
+      <name>Triangle 1</name>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>2</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>7dff0000</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              <!-- Coordinates for Triangle 1 -->
+              -117.173,32.715,0
+              -117.172,32.716,0
+              -117.174,32.716,0
+              -117.173,32.715,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Triangle 2</name>
+      <Style>
+        <LineStyle>
+          <color>ff00ff00</color>
+          <width>2</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>7d00ff00</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              <!-- Coordinates for Triangle 2 -->
+              -117.175,32.713,0
+              -117.174,32.714,0
+              -117.176,32.714,0
+              -117.175,32.713,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
